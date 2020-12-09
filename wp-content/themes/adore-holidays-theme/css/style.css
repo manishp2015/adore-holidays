@@ -190,7 +190,7 @@ li.current-menu-item a {
 /* Villas Section */
 .middle-container {
   position: relative;
-  top: 75px;
+  top: 45px;
 }
 
 .villa-container {
@@ -645,7 +645,7 @@ li.current-menu-item a {
   #myBtn {
     display: none; 
     position: fixed; 
-    bottom: 20px; 
+    bottom: 100px; 
     right: 30px; 
     z-index: 1; 
     border: none; 

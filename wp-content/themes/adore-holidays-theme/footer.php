@@ -2,7 +2,7 @@
 <div class="footer-container">
   <div class="row">
     <div class="footer col-lg-4 col-md-6">
-      <a href="<?php echo site_url() ?>"><img src="http://adore-holidays.net/wp-content/uploads/2020/06/Adore-Holidays-Logo-4-e1591537393840.png" width="150px" height="53.5px" alt="adore-holidays-logo">
+      <a href="<?php echo site_url() ?>"><img src="https://adore-holidays.net/wp-content/uploads/2020/12/adore-holidays-logo.png" width="150px" height="53.5px" alt="adore-holidays-logo">
         <br>
         <a href="https://www.facebook.com/"><i class="fab fa-2x fa-facebook"></i></a>
         <a href="https://www.linkedin.com/company/adore-villa-rent-holidays-luxury/"><i class="fab fa-2x fa-linkedin-in"></i></a>

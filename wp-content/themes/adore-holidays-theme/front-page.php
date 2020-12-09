@@ -5,7 +5,7 @@
   <div class="hero-image-container">
 
   <div class="page-banner">
-    <img src="http://adore-holidays.net/wp-content/uploads/2020/06/luxury-holidays-villas-world.jpg" width="1345px" height="530px" class="img-fluid" alt="Responsive image" alt="">
+    <img src="https://adore-holidays.net/wp-content/uploads/2020/12/hero-image-adore-holidays-1345x635-1.jpg" width="1345px" height="530px" class="img-fluid" alt="Responsive image" alt="">
   </div>
 
     <h1 class="sub-1">Luxury Holidays of the World</h1>
@@ -58,7 +58,7 @@
     </div>
   </div>
 
-  </div>        <!--Hero Image ends>
+  </div>        <!--Hero Image ends> -->
 
 <!-- Villas Section -->
 <div class="middle-container">
@@ -68,20 +68,20 @@
   <div class="villa-container">
 
     <div class="row">
-      <div class="col-lg-6 col-md-6">
-        <div class="villa card bg-light">
-          <a href="http://localhost:8080/adore-holidays/villa/bondi-dream/"><img class="card-img-top" src="<?php echo get_theme_file_uri('/images/bondi-dream-australia1.jpg') ?> " alt="bondi-dream-img"></a>
+      <div class="col-lg-6 col-md-6 col-s-12">
+        <div class="villa-a card bg-light">
+          <a href="https://adore-holidays.net/villas/bondi-dream/"><img class="card-img-top" src="<?php echo get_theme_file_uri('/images/bondi-dream-australia1.jpg') ?> " alt="bondi-dream-img"></a>
           <div class="card-body">
-            <a href="http://localhost:8080/adore-holidays/villa/bondi-dream/" class="card-img-top" alt="bondi-dream-img"><h5 class="card-title">Bondi Dream, AUSTRALIA</h5></a>
+            <a href="https://adore-holidays.net/villas/bondi-dream/" class="card-img-top" alt="bondi-dream-img"><h5 class="card-title">Bondi Dream, AUSTRALIA</h5></a>
             <p class="card-text">Bedrooms: 4 | Bathroom: 4 | Sleeps 8</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6">
-        <div class="villa card bg-light">
-          <a href="http://localhost:8080/adore-holidays/villa/chateau-nobel/"><img class="card-img-top" src="<?php echo get_theme_file_uri('/images/chateau-nobel-france-1.jpg') ?>" alt="chateau-nobel-img"></a>
+      <div class="col-lg-6 col-md-6 col-s-12">
+        <div class="villa-a card bg-light">
+          <a href="https://adore-holidays.net/villas/chateau-nobel/"><img class="card-img-top" src="<?php echo get_theme_file_uri('/images/chateau-nobel-france-1.jpg') ?>" alt="chateau-nobel-img"></a>
           <div class="card-body">
-            <a href="http://localhost:8080/adore-holidays/villa/chateau-nobel/"><h5 class="card-title">Chateau Nobel, FRANCE</h5></a>
+            <a href="https://adore-holidays.net/villas/chateau-nobel/"><h5 class="card-title">Chateau Nobel, FRANCE</h5></a>
             <p class="card-text">Bedrooms: 5 | Bathroom: 5 | Sleeps 10</p>
           </div>
         </div>
@@ -89,8 +89,8 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <div class="villa card bg-light">
+      <div class="col-lg-4 col-md-6 col-s-12">
+        <div class="villa-a card bg-light">
           <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villa-house-rent-holidays-bali-383.jpg') ?>" alt="bali-img">
           <div class="card-body">
             <h5 class="card-title">Villa Atas, BALI</h5>
@@ -98,8 +98,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="villa card bg-light">
+      <div class="col-lg-4 col-md-6 col-s-12">
+        <div class="villa-a card bg-light">
           <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villas-rental-houses-thailand-koh-samui-383.jpg') ?>" alt="thailand-img">
           <div class="card-body">
             <h5 class="card-title">Villa Boonsri, THAILAND</h5>
@@ -107,8 +107,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="villa card bg-light">
+      <div class="col-lg-4 col-md-6 col-s-12">
+        <div class="villa-a card bg-light">
           <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villa-new-zealand-1.jpg') ?>" alt="new-zealand-img">
           <div class="card-body">
             <h5 class="card-title">Villa de Lux, NEW ZEALAND</h5>

@@ -3,6 +3,7 @@
   <head>
     <?php wp_head(); ?>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title></title>
   </head>
   <body>
@@ -12,7 +13,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-light nav-style">
         <a class="navbar-brand" href="<?php echo site_url() ?>">
-          <img src="http://adore-holidays.net/wp-content/uploads/2020/06/Adore-Holidays-Logo-4-e1591537393840.png" width="150px" height="53.5px" alt="adore-holidays-logo">
+          <img src="https://adore-holidays.net/wp-content/uploads/2020/12/adore-holidays-logo.png" width="150px" height="53.5px" alt="adore-holidays-logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

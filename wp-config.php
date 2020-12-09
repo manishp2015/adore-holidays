@@ -20,18 +20,17 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 
-
-	if (strstr($_SERVER['SERVER_NAME'], 'adore-holidays')) {
-		define( 'DB_NAME', 'adore-holidays' );
-		define( 'DB_USER', 'root' );
-		define( 'DB_PASSWORD', '' );
-		define( 'DB_HOST', 'localhost' );
-	} else {
-		define( 'DB_NAME', 'adoreh5_julian' );
-		define( 'DB_USER', 'adoreh5_user' );
-		define( 'DB_PASSWORD', 'Wxuw(gTBVr8e' );
-		define( 'DB_HOST', 'localhost' );
-	}
+if (strstr($_SERVER['SERVER_NAME'], 'adore-holidays')) {
+	define( 'DB_NAME', 'adoreh5_julian' );
+	define( 'DB_USER', 'adoreh5_admin' );
+	define( 'DB_PASSWORD', '?Km,0[Z97d.D' );
+	define( 'DB_HOST', 'localhost' );
+} else {
+	define( 'DB_NAME', 'adore-holidays' );
+	define( 'DB_USER', 'root' );
+	define( 'DB_PASSWORD', '' );
+	define( 'DB_HOST', 'localhost' );
+}	
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -79,8 +78,9 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
 
+define( 'WP_DEBUG', false );
+/* define( 'WP_DEBUG_LOG', true ); */
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
@@ -90,3 +90,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+define('DISALLOW_FILE_EDIT', false);
+define('DISALLOW_FILE_MODS', false);
