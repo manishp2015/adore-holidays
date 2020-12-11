@@ -7,8 +7,10 @@
         <a href="https://www.facebook.com/"><i class="fab fa-2x fa-facebook"></i></a>
         <a href="https://www.linkedin.com/company/adore-villa-rent-holidays-luxury/"><i class="fab fa-2x fa-linkedin-in"></i></a>
         <a href="https//www.instagram.com/"><i class="fab fa-2x fa-instagram-square"></i></a>
-
+        
+        
     </div>
+    
 
     <!-- Middle Part -->
     <div class="footer col-lg-4 col-md-6";>
@@ -22,16 +24,19 @@
         ));
       ?>
       </div>
+      <div class="sitemap">
+        <a href="https://adore-holidays.net/sitemap.xml"> Sitemap</a>
+      </div>
     </div>
 
     <div class="footer col-lg-4">
       <h4>Our Office</h4>
-      <p> <i class="fas fa-map-marker-alt"></i> Suite 601/90, Pitt Street,</p>
-              <p>Sydney, NSW 2009, Australia</p>
+      <p class="sub-2"> <i class="fas fa-map-marker-alt"></i> Suite 601/90, Pitt Street,</p>
+              <p class="sub-2">Sydney, NSW 2009, Australia</p>
 
-              <p><i class="fas fa-envelope"></i> julian@adore-holidays.net</p> 
+              <p class="sub-2"><i class="fas fa-envelope"></i> julian@adore-holidays.net</p> 
               
-              <p><i class="fas fa-phone-alt"></i> +61 407 008 176</p>      
+              <p class="sub-2"><i class="fas fa-phone-alt"></i> +61 407 008 176</p>      
       
       
     </div>

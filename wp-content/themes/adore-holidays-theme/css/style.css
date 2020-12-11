@@ -261,12 +261,17 @@ li.current-menu-item a {
   }
 
 .footer-spacing {
-  padding-left: 120px;
-  padding-right: 170px;
+  padding-left: 90px;
+  padding-right: 120px;
 }
 
 .font-foot {
   padding: 0 20px;
+}
+
+.sitemap {
+  text-align: center;
+  padding-left: 1%;
 }
 
 /* Contact Icons */
