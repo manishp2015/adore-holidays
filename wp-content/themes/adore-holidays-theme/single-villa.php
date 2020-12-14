@@ -7,7 +7,7 @@ get_header(); ?>
       the_post(); ?>
 
   <div class="page-banner-img">
-    <img src="<?php $pageBannerImage = get_field('page_banner_background_image'); echo $pageBannerImage['sizes']['pageBanner'] ?>" width="100%" height="auto" alt="">
+    <img class="page-banner-pic" src="<?php $pageBannerImage = get_field('page_banner_background_image'); echo $pageBannerImage['sizes']['pageBanner'] ?>" width="100%" height="auto" alt="">
   </div>
 
   <div class="event-container">

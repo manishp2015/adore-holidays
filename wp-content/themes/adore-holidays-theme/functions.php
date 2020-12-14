@@ -16,12 +16,12 @@ function holiday_files() {
 
   // Storing files in Bundle Assets Folder
   if (strstr($_SERVER['SERVER_NAME'], 'adore-holidays')) {
-    wp_enqueue_script('holiday-main-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
-  } else {
     wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.9678b4003190d41dd438.js'), NULL, '1.0', true);
-    wp_enqueue_script('holiday-main-js', get_theme_file_uri('/bundled-assets/scripts.2dd3bc8b8d96fca79443.js'), NULL, '1.0', true);
-    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.2dd3bc8b8d96fca79443.css'));
-  }
+    wp_enqueue_script('holiday-main-js', get_theme_file_uri('/bundled-assets/scripts.04b78b68bcbb8b7b2f9c.js'), NULL, '1.0', true);
+    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.04b78b68bcbb8b7b2f9c.css'));
+  } else {
+    wp_enqueue_script('holiday-main-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
+    }
 
     wp_localize_script('holiday-main-js', 'holidayData', array(
       'root_url' => get_site_url(),
@@ -71,7 +71,7 @@ function pageBanner($args = NULL) {
 
   ?>
   <div class="page-banner-img">
-    <img src="<?php echo $args['photo']; ?>" width="100%" alt="">
+    <img class="page-banner-pic" src="<?php echo $args['photo']; ?>" width="100%" alt="">
   </div>
 
 <?php 
@@ -125,7 +125,7 @@ add_filter('login_headerurl','ourHeaderUrl');
 add_action('login_enqueue_scripts','ourLoginCSS');
 
 function ourLoginCSS() {
-  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.2dd3bc8b8d96fca79443.css'));
+  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.04b78b68bcbb8b7b2f9c.css'));
   wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900');
 }
 

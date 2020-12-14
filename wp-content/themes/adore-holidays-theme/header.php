@@ -34,7 +34,7 @@
 
         <?php  ?>
          <div class="nav-item">
-              <a href="<?php echo esc_url(site_url('/search')); ?> " class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+              <a href="<?php echo esc_url(site_url('/search')); ?> " class="search-trigger js-search-trigger">Search <i class="fa fa-search" aria-hidden="true"></i></a>
               </div>
 
          <?php     ?>

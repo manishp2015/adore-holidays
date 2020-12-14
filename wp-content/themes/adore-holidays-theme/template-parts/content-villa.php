@@ -50,12 +50,37 @@
                   } ?></p>
           </div>
           <div class="min-list col-lg-2">
-            <?php
-              $relatedFromPrice = get_field('from_price');
-              echo '<i text-align="center">From Price </i>'; 
-              echo ("AUD $ " . $relatedFromPrice);
-            ?>      
-            <a class="btn" style="background-color: #c7b198; color: #f0ece3"  href="<?php the_permalink(); ?>"><strong>Get Quote &raquo;</strong></a>
-          </div>
+          <?php
+              $relatedFromPrice = get_field('prices');
+              $relatedCurrency = get_field('currency');
+              $durations = get_field('duration');
+              echo '<p class="sub-2">From Price <p>';
+              
+              
+              if( $relatedCurrency ): ?>
+                
+                    <?php foreach( $relatedCurrency as $currency ): ?>
+                      <div class="section-break"></div>
+                          <h4 class="sub-2"><?php echo $currency; echo (" " . $relatedFromPrice);?></h4>
+                    <?php endforeach; ?>
+                
+                <?php endif; 
+
+                if( $durations ): ?>
+                
+                    <?php foreach( $durations as $duration ): ?>
+                        
+                        <h6 class="sub-2"><?php echo $duration;?></h6>
+                    <?php endforeach; ?>
+
+                <?php endif;       
+
+            ?>  
+            <div class="section-break"></div>
+
+            <div class="text-center">
+              <a class="btn quote-button" style="background-color: #c7b198; color: #f0ece3"  href="<?php the_permalink(); ?>"><strong>Get Quote &raquo;</strong></a>
+            </div>
+            </div>
         </div>
-      </div>
+      </div> 

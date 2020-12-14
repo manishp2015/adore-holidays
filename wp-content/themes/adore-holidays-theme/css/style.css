@@ -396,14 +396,14 @@ li.current-menu-item a {
 }
 
 @media (max-width: 900px) and (min-width: 515px) {
-  .page-banner-img {
+  .page-banner-pic {
       height: 175px;
   }
 }
 
 @media (max-width: 515px) and (min-width: 300px) {
-  .page-banner-img {
-    height: 100px;
+  .page-banner-pic {
+    height: 115px;
   }
 }
 
@@ -453,6 +453,11 @@ li.current-menu-item a {
     padding: 50px 0;
   }
 
+  .metabox {
+    position: relative;
+    padding-left: 0;
+  }
+
   .feature-section {
     margin-left: 16px;
     margin-right: 16px;
@@ -467,6 +472,10 @@ li.current-menu-item a {
 
   .main-body-content {
     padding: 50px 0;
+  }
+
+  .metabox {
+    position: relative;
   }
 
   .feature-section {
@@ -513,6 +522,20 @@ li.current-menu-item a {
     font-size: 2rem;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 0;
+  }
+
+  .event-sub-heading {
+    font-size: 0.75rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+
+  .event-metabox {
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 16px;
   }
  
 }
@@ -522,13 +545,42 @@ li.current-menu-item a {
     font-size: 1.5rem;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 0;
   }
 
   .event-sub-heading {
     font-size: 0.75rem;
     padding-top: 0;
     padding-bottom: 0;
+    padding-left: 0;
   }
+
+  .event-metabox {
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 16px;
+  }
+
+  /* Contact Form 7 Settings */
+  .wpcf7-form-control-wrap your-name {
+    width: 275px;
+   }
+   
+   .wpcf7-form-control-wrap your-email {
+   width: 275px;
+   }
+   
+   .wpcf7-form-control-wrap tel-17 {
+   width: 275px;
+   }
+   
+   .wpcf7-form-control-wrap your-message {
+   width: 275px;
+   }
+   
+   .wpcf7-form-control wpcf7-textarea {
+   width: 265px;
+   }
 
 }
 
