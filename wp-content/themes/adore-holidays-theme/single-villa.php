@@ -185,16 +185,11 @@ get_header(); ?>
             <li><?php echo $field['choices'][ $otherFeature ]; ?></li>
         <?php endforeach; ?>
     </ul>
-    <?php endif; ?>   
+    <?php endif; ?>  
 
-    </div>  
-                    
-
-
+    </div>               
     <div class="section-break"> </div>
-    
-
-    
+        
     <!-- Related Destination -->
           <?php
           $relatedDestinations = get_field('related_destinations');

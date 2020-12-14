@@ -73,7 +73,7 @@ pageBanner(array(
                 </div>
                 <div class="col-lg-9">
                   <h5><a class="sub-heading-one" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                  <p><?php if (has_excerpt()) {
+                  <p class="desc-spacing"><?php if (has_excerpt()) {
                       echo get_the_excerpt();
                       } else {
                       echo wp_trim_words(get_the_content(), 18);

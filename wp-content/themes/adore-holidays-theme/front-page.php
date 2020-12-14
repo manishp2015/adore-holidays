@@ -9,7 +9,7 @@
   </div>
 
     <h1 class="sub-1">Luxury Holidays of the World</h1>
-    <h6 class="sub-2">Specialised in holiday rental villas and concierge services</h6>
+    <h6 class="sub-2 mob-sub-2">Specialised in holiday rental villas and concierge services</h6>
 
 
   <div class="page-banner-box row">
@@ -21,18 +21,19 @@
           <h6 class="sub-heading-two card-text"><strong>Specialised in holiday rental villas and concierge services</strong></h5>
         </div>
 -->
+
         <div class="card-body bg-light">
 
           <form action="<?php echo esc_url(site_url('/')); ?>" method="get">
             <div class="form-group mx-sm-3">
-                  
-              <input id="s" class="form-control" type="search" name="s" placeholder="Type a Destination (eg. Palm Beach)">
+              <label class="sub-2">Type your Destination</label>    
+              <input id="s" class="form-control" type="search" name="s" placeholder="(eg. Palm Beach)">
 
             </div>
 
 
             <div class="form-group mx-sm-3">
-              <input type="number" class="form-control" name="no_of_bedrooms" value="" placeholder="No of Bedrooms">
+              <input type="number" class="form-control" name="no_of_bedrooms" value="no_of_bedrooms" placeholder="No of Bedrooms">
             </div>
 
 <!-- Check In / Out Dates
@@ -69,7 +70,7 @@
 
     <div class="row">
       <div class="col-lg-6 col-md-6 col-s-12">
-        <div class="villa-a card bg-light">
+        <div class="villa-a card bg-light margin-spacing">
           <a href="https://adore-holidays.net/villas/bondi-dream/"><img class="card-img-top" src="<?php echo get_theme_file_uri('/images/bondi-dream-australia1.jpg') ?> " alt="bondi-dream-img"></a>
           <div class="card-body">
             <a href="https://adore-holidays.net/villas/bondi-dream/" class="card-img-top" alt="bondi-dream-img"><h5 class="card-title">Bondi Dream, AUSTRALIA</h5></a>
@@ -78,7 +79,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-s-12">
-        <div class="villa-a card bg-light">
+        <div class="villa-a card bg-light margin-spacing">
           <a href="https://adore-holidays.net/villas/chateau-nobel/"><img class="card-img-top" src="<?php echo get_theme_file_uri('/images/chateau-nobel-france-1.jpg') ?>" alt="chateau-nobel-img"></a>
           <div class="card-body">
             <a href="https://adore-holidays.net/villas/chateau-nobel/"><h5 class="card-title">Chateau Nobel, FRANCE</h5></a>
@@ -90,7 +91,7 @@
 
     <div class="row">
       <div class="col-lg-4 col-md-6 col-s-12">
-        <div class="villa-a card bg-light">
+        <div class="villa-a card bg-light margin-spacing">
           <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villa-house-rent-holidays-bali-383.jpg') ?>" alt="bali-img">
           <div class="card-body">
             <h5 class="card-title">Villa Atas, BALI</h5>
@@ -99,7 +100,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-s-12">
-        <div class="villa-a card bg-light">
+        <div class="villa-a card bg-light margin-spacing">
           <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villas-rental-houses-thailand-koh-samui-383.jpg') ?>" alt="thailand-img">
           <div class="card-body">
             <h5 class="card-title">Villa Boonsri, THAILAND</h5>
@@ -108,7 +109,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-s-12">
-        <div class="villa-a card bg-light">
+        <div class="villa-a card bg-light margin-spacing">
           <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villa-new-zealand-1.jpg') ?>" alt="new-zealand-img">
           <div class="card-body">
             <h5 class="card-title">Villa de Lux, NEW ZEALAND</h5>
