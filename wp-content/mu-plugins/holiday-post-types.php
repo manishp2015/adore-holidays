@@ -44,7 +44,7 @@ function holiday_post_types() {
      'capability_type' => 'post',
      'map_meta_cap' => true,
      'show_in_rest' => true,
-     'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
+     'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'comments'),
      'public' => true,
      'publicly_queryable' => true,
      'show_ui' => true,

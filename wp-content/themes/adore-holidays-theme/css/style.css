@@ -664,6 +664,11 @@ li.current-menu-item a {
   padding: 50px;
 }
 
+.feature-background {
+  background-color: #f0ece3;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 /* Search Overlay */
 

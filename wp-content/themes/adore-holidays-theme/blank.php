@@ -114,3 +114,78 @@ if(get_field('image_gallery')) {  ?>
 });
 
 </script> 
+
+
+
+
+<div class="col-lg-12 feature-section-amenities"> 
+  <h5>Features</h5>  
+  <div class="section-break"> </div>      
+            <?php
+            //Features and Amenities
+            // Load field settings and values.
+            
+            $field = get_field_object('indoor_details');
+            $indoorFeatures = $field['value'];
+
+            // Display labels.
+            if( $indoorFeatures ): ?>
+              <h6>Indoor Features</h6>
+                 <ul class="elements custom-unordered-list" style="list-style-type:none;">
+              <?php foreach( $indoorFeatures as $indoorFeature ): ?>
+                     <li><?php echo $field['choices'][ $indoorFeature ]; ?></li>
+               <?php endforeach; ?>
+                  </ul>
+            <?php endif; ?>
+            <?php
+    //Features and Amenities
+    // Load field settings and values.
+    $field = get_field_object('outdoor_details');
+    $outdoorFeatures = $field['value'];
+
+    // Display labels.
+    if( $outdoorFeatures ): ?>
+    <h6>Outdoor Features</h6>
+    <ul class="elements custom-unordered-list" style="list-style-type:none;">
+        <?php foreach( $outdoorFeatures as $outdoorFeature ): ?>
+            <li><?php echo $field['choices'][ $outdoorFeature ]; ?></li>
+        <?php endforeach; ?>
+    </ul>
+    <?php endif; ?>
+
+     <?php
+    //Features and Amenities
+    // Load field settings and values.
+    $field = get_field_object('other_features');
+    $otherFeatures = $field['value'];
+
+    // Display labels.
+    if( $otherFeatures ): ?>
+    <h6>Other Features</h6>
+    <ul class="elements custom-unordered-list" style="list-style-type:none;">
+        <?php foreach( $otherFeatures as $otherFeature ): ?>
+            <li><?php echo $field['choices'][ $otherFeature ]; ?></li>
+        <?php endforeach; ?>
+    </ul>
+    <?php endif; ?>  
+
+    </div>               
+    <div class="section-break"> </div>
+        
+    <!-- Related Destination -->
+          <?php
+          $relatedDestinations = get_field('related_destinations');
+
+          if ($relatedDestinations) {
+            echo '<h6 class="">Related Destination(s)</h6>';
+            echo '<ul class="custom-link custom-unordered-list">';
+            foreach($relatedDestinations as $destination) {   ?>
+              <li><a href="<?php echo get_the_permalink($destination); ?>"><?php echo get_the_title($destination); ?></a></li>
+
+            <?php  }
+            echo '</ul>';
+            }
+
+            ?>
+
+  </div>
