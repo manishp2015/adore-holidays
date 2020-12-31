@@ -92,27 +92,27 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 col-s-12">
         <div class="villa-a card bg-light margin-spacing">
-          <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villa-house-rent-holidays-bali-383.jpg') ?>" alt="bali-img">
+          <a href="https://adore-holidays.net/villas/villa-atas/"></a><img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villa-house-rent-holidays-bali-383.jpg') ?>" alt="bali-img">
           <div class="card-body">
-            <h5 class="card-title">Villa Atas, BALI</h5>
+            <a href="https://adore-holidays.net/villas/villa-atas/"></a><h5 class="card-title">Villa Atas, BALI</h5>
             <p class="card-text">Bedrooms: 4 | Bathroom: 4 | Sleeps 8</p>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-s-12">
         <div class="villa-a card bg-light margin-spacing">
-          <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villas-rental-houses-thailand-koh-samui-383.jpg') ?>" alt="thailand-img">
+          <a href="https://adore-holidays.net/villas/villa-boonsri/"></a><img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villas-rental-houses-thailand-koh-samui-383.jpg') ?>" alt="thailand-img">
           <div class="card-body">
-            <h5 class="card-title">Villa Boonsri, THAILAND</h5>
+            <a href="https://adore-holidays.net/villas/villa-boonsri/"></a><h5 class="card-title">Villa Boonsri, THAILAND</h5>
             <p class="card-text">Bedrooms: 5 | Bathroom: 5 | Sleeps 10</p>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-s-12">
         <div class="villa-a card bg-light margin-spacing">
-          <img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villa-new-zealand-1.jpg') ?>" alt="new-zealand-img">
+          <a href="https://adore-holidays.net/villas/villa-de-luxe/"></a><img class="card-img-top" src="<?php echo get_theme_file_uri('/images/luxury-villa-new-zealand-1.jpg') ?>" alt="new-zealand-img">
           <div class="card-body">
-            <h5 class="card-title">Villa de Lux, NEW ZEALAND</h5>
+            <a href="https://adore-holidays.net/villas/villa-de-luxe/"></a><h5 class="card-title">Villa de Lux, NEW ZEALAND</h5>
             <p class="card-text">Bedrooms: 5 | Bathroom: 5 | Sleeps 10</p>
           </div>
         </div>
